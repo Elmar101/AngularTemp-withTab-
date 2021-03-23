@@ -1,0 +1,104 @@
+section {
+  margin: 20px 25px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.content {
+  padding: 15px;
+  max-width: 100%;
+  min-height: 100%;
+  border: 4px solid #0489B1;
+  padding-bottom: 100px;
+  position: relative;
+}
+
+.center {
+  text-align: center;
+  width: 120px;
+}
+
+.example-radio-group {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.example-radio-button {
+  margin: 5px;
+}
+
+
+.example-form-field {
+  width: 500px;
+}
+
+.mt-icon{
+  font-size: 20px!important;
+}
+
+.right {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.right .btn {
+  margin-right: 20px;
+  background-color:  #0489B1;
+  color: #fff;
+
+}
+
+mat-sidenav-container{
+  height: 100%;
+}
+
+mat-sidenav{
+  padding: 16px;
+  background-color:#fff;
+  width: 370px;
+}
+
+mat-sidenav img {
+  width: 170px;
+  margin-bottom: 25px;
+}
+mat-sidenav ul {
+  padding: 20px;
+}
+mat-sidenav .btn-badge {
+ color: #A4A4A4!important ;
+}
+mat-sidenav ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+mat-sidenav .material-icons{
+  font-size: 25px!important;
+  font-weight: bold!important;
+  margin-right: 15px!important;
+}
+mat-sidenav span {
+  float: right;
+  background:  #0489B1!important;
+  border-radius: 50%!important;
+  width: 40px!important;
+}
+
+
+mat-sidenav mat-label {
+  float: right;
+  color:  #A4A4A4!important ;
+}
+mat-toolbar {
+  width: 100%;
+  background: #0489B1!important;
+  color: #fff!important;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+

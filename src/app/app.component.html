@@ -1,0 +1,114 @@
+
+<button id="myBtn">
+  <mat-icon>upload</mat-icon>
+</button>
+<mat-sidenav-container>
+
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+    <img src="assets/image/sinam_logo.png"/>
+    <mat-divider></mat-divider>
+
+    <ul>
+      <li>
+        <button mat-button class="btn-badge">
+          <mat-icon class="material-icons">download</mat-icon>
+          Daxil Olanlar
+         </button>
+         <span matBadge="196" ></span>
+      </li>
+
+      <li>
+        <button mat-button class="btn-badge">
+          <mat-icon class="material-icons">upload</mat-icon>
+           Xaric Olanlar
+         </button>
+      </li>
+
+      <li>
+        <button mat-button class="btn-badge">
+          <mat-icon class="material-icons">mode</mat-icon>
+           Yeni Yazışma
+         </button>
+      </li>
+
+      <li>
+        <button mat-button class="btn-badge">
+          <mat-icon class="material-icons">folder</mat-icon>
+           Qovluğum
+         </button>
+      </li>
+
+      <li>
+        <button mat-button class="btn-badge">
+          <mat-icon class="material-icons"> date_range </mat-icon>
+           İş növbələri
+         </button>
+      </li>
+
+      <li>
+        <button mat-button class="btn-badge">
+          <mat-icon class="material-icons">label</mat-icon>
+           Nömrələmə
+         </button>
+         <span matBadge="96" ></span>
+      </li>
+
+      <li>
+        <button mat-button class="btn-badge">
+          <mat-icon class="material-icons"> person </mat-icon>
+           Analtika
+         </button>
+         <mat-label class="material-icons">  keyboard_arrow_down </mat-label>
+      </li>
+
+      <li>
+        <button mat-button class="btn-badge">
+          <mat-icon class="material-icons"> assignment </mat-icon>
+           Hesabat
+         </button>
+         <mat-label class="material-icons"> keyboard_arrow_down </mat-label>
+      </li>
+    </ul>
+  </mat-sidenav>
+
+
+  <mat-sidenav-content>
+    <mat-toolbar>
+
+      <button mat-icon-button class="example-icon" (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span> Yazişmanın Məlumatları </span>
+      <span class="example-spacer"></span>
+      <span> Aynur Ulubəyova </span>
+      <button mat-icon-button class="example-icon favorite-icon" >
+        <mat-icon>person</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" >
+        <mat-icon>import_contacts</mat-icon>
+      </button>
+    </mat-toolbar>
+
+    <structure></structure>
+    <mat-tab-group mat-stretch-tabs mat-align-tabs="center">
+
+
+      <mat-tab label="Sənədlər">
+        <files></files>
+      </mat-tab>
+
+      <mat-tab label="Əsas Məlumatlar">
+        <mainly></mainly>
+        <documents></documents>
+        <history></history>
+
+      </mat-tab>
+
+    </mat-tab-group>
+
+  </mat-sidenav-content>
+
+
+</mat-sidenav-container>
+
+

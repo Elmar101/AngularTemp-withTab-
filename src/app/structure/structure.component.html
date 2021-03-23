@@ -1,0 +1,48 @@
+   <section>
+      <div class="content">
+        <h1> İşə alınma üçün </h1>
+        <h2> Göndərən / Struktur Bölmə</h2>
+        <h3> Elçin Mahmudov / SESDA Layihə Qurupu </h3>
+        <h2> Göndərmə Tarixi </h2>
+        <h3> 01.03.2021 17:58 </h3>
+        <h2>Göndərənin Qeydi </h2>
+        <h3 class="center">noted</h3>
+
+        <mat-radio-group
+          class="example-radio-group"
+          [(ngModel)]="agreement">
+          <mat-radio-button
+            color="primary"
+            class="example-radio-button"
+            *ngFor="let agree of  agreements" [value]="agree">
+            {{agree}}
+          </mat-radio-button>
+        </mat-radio-group>
+
+        <mat-form-field class="example-form-field">
+          <mat-label> İcranın Qimətləndirilməsi </mat-label>
+          <input matInput type="text">
+          <button mat-button  matSuffix mat-icon-button >
+            <mat-icon class=".mt-icon"> arrow_drop_down </mat-icon>
+          </button>
+        </mat-form-field>
+
+        <br/>
+        <mat-form-field class="example-form-field">
+          <mat-label> İcranın baxılma yeri </mat-label>
+          <input matInput type="text">
+          <button mat-button  matSuffix mat-icon-button >
+            <mat-icon class=".mt-icon"> arrow_drop_down </mat-icon>
+          </button>
+        </mat-form-field>
+
+        <div class="right">
+          <div class="example-button-row">
+            <button mat-raised-button class="btn">Başa çatdır </button>
+            <button mat-raised-button >Bağla</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+

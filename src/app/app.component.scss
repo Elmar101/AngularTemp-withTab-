@@ -1,0 +1,98 @@
+ mat-sidenav-container{
+  height: 100%;
+}
+
+mat-sidenav{
+  padding: 16px;
+  scroll-behavior: none;
+  height: 100%;
+}
+
+mat-sidenav img {
+  width: 170px;
+  margin-bottom: 25px;
+}
+mat-sidenav ul {
+  padding: 20px;
+}
+mat-sidenav .btn-badge {
+ color: #A4A4A4!important ;
+}
+mat-sidenav ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+mat-sidenav .material-icons{
+  font-size: 25px!important;
+  font-weight: bold!important;
+  margin-right: 15px!important;
+}
+mat-sidenav span {
+  float: right;
+  background:  #0489B1!important;
+  border-radius: 50%!important;
+  width: 40px!important;
+}
+
+mat-sidenav{
+  background-color:#fff;
+  width: 370px;
+}
+mat-sidenav mat-label {
+  float: right;
+  color:  #A4A4A4!important ;
+}
+mat-toolbar {
+  width: 100%;
+  background: #0489B1!important;
+  color: #fff!important;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+h1{
+  margin-top: 170px;
+}
+
+h1 button{
+  margin-top: 35px!important;
+  font-weight: 700;
+  color: #0489B1;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+
+input , textarea{
+  font-size: 16px;
+  font-weight: 500;
+}
+mat-tab-group{
+  padding: 25px;
+}
+
+.mat-ink-bar{
+  left: 20px;
+}
+
+
+mat-tab-group{
+    padding: 20px 40px!important;
+   /*  position: sticky !important;
+    top: 0!important; */
+}
+/* .mat-tab-header {
+  display: flex;
+  overflow: hidden;
+  position: sticky !important;
+  top: 0!important;
+  flex-shrink: 0;
+  z-index: 99!important;
+} */
+
+
+

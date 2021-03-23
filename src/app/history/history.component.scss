@@ -1,0 +1,54 @@
+.history {
+  padding: 25px 0;
+  max-width: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+
+
+
+mat-card{
+  max-height: 100vh;
+  min-width: 100%;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+}
+tbody {
+  overflow-x: auto;
+}
+
+th{
+  background:  #0489B1;
+  color: #fff;
+  font-size: 16px;
+}
+
+mat-icon{
+  color: #0489B1;
+  font-size: 30px;
+}
+
+td{
+  font-size: 20px;
+  font-weight: 500;
+  min-width: 300px;
+}
+.red {
+  color: red !important;
+}
+
+mat-sidenav-container{
+  height: 100%;
+}
+
+
+mat-sidenav{
+  padding: 16px;
+  background-color:#fff;
+  width: 370px!important;
+  height: 100%;
+}
